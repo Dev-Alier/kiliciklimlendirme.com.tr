@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /login/
+Disallow: /adminSA/
+Disallow: /panel/
+Allow: /
+
+Sitemap: https://www.kiliciklimlendirme.com.tr/sitemap.xml

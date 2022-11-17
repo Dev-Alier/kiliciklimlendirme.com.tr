@@ -1,0 +1,88 @@
+.saveButton {
+    width: 20%;
+}
+
+.card-body {
+    padding: 25px 18% 4% 18% !important;
+}
+
+.data-list .card-body {
+    padding: 20px !important;
+}
+
+.color {
+    height: 30px;
+    max-width: 25%;
+}
+
+.btnColor {
+    display: flex;
+    align-items: baseline;
+}
+
+.colorpicker {
+    margin-left: 10px;
+    width: 100px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+.edit {
+    float: left;
+    margin-top: 13px;
+    color: green;
+    border: 1px solid green;
+}
+
+.edit:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.table > thead {
+    background: #eceeef !important;
+    text-align: center !important;
+    font-weight: 900;
+}
+.table > tbody {
+    text-align: center !important;
+}
+
+.list-head {
+    background: #f2f1f1;
+    line-height: 35px;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.process {
+    display: flex !important;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.process a{
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        padding: 5px !important;
+    }
+    .saveButton {
+        width: auto;
+    }
+
+    .form-table {
+        margin-top: 15px;
+        display: flex;
+    }
+}
+@media (min-width: 768px) {
+    .form-table {
+        margin-top: 15px;
+    }
+}
